@@ -1,0 +1,75 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'YourFontName', Amelinda;
+    
+    
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: vertical;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #3E8E41;
+  }
+  
+  #handwritten-output {
+    margin-bottom: 20px;
+  }
+  
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    #handwritten-output {
+      visibility: visible;
+    }
+    #handwritten-output {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  

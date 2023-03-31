@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handwritten Text Converter</title>
+  <link rel="stylesheet" href="styles.css">
+ 
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Amelinda.ttf rel='stylesheet'>
+  
+  
+</head>
+
+<body>
+  <div class="container">
+    <h1>Handwritten Text Converter</h1>
+    <form>
+      <label for="text-input">Enter your text:</label>
+      <textarea id="text-input" name="text-input" rows="10"></textarea>
+      <button type="button" onclick="convertText()">Convert to Handwritten</button>
+    </form>
+    <div id="handwritten-output"></div>
+    <button type="button" onclick="savePDF()">Save as PDF</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
